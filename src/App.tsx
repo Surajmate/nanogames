@@ -843,7 +843,7 @@ export default function App() {
               {/* Render QR code via secure free API */}
               <div className="w-32 h-32 bg-white p-2 rounded-xl shadow-lg relative border border-slate-800">
                 <img 
-                  src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&color=0F172A&data=${encodeURIComponent(`upi://pay?pa=pay.nanogames@ybl&pn=NanoGames&am=${depositAmount}&cu=INR`)}`}
+                  src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&color=0F172A&data=${encodeURIComponent(`upi://pay?pa=pay.7974291753@ybl&pn=NanoGames&am=${depositAmount}&cu=INR`)}`}
                   alt="UPI Deposit QR Code"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-contain"
@@ -854,10 +854,10 @@ export default function App() {
               <div className="w-full flex justify-between items-center bg-slate-900/60 border border-slate-800 px-3 py-1.5 rounded-xl text-[10px]">
                 <div className="flex flex-col text-left">
                   <span className="text-[7.5px] font-mono text-slate-500 uppercase">Receiver UPI address</span>
-                  <span className="font-bold text-slate-300 font-mono">pay.nanogames@ybl</span>
+                  <span className="font-bold text-slate-300 font-mono">pay.7974291753@ybl</span>
                 </div>
                 <button 
-                  onClick={() => copyToClipboard("pay.nanogames@ybl")}
+                  onClick={() => copyToClipboard("pay.7974291753@ybl")}
                   className="px-2 py-1 bg-slate-800 text-slate-300 hover:text-white rounded-lg flex items-center gap-1 cursor-pointer font-bold"
                 >
                   <Copy className="w-3 h-3" />

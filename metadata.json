@@ -1,0 +1,6 @@
+{
+  "name": "Nano Games",
+  "description": "A high-fidelity 15-second Nano Games lottery app featuring 0-9 number selections, Big/Small choices, live countdown timer, and secure Deposit/Withdrawal gateways.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
